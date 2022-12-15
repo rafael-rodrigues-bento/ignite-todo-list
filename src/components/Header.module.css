@@ -1,0 +1,8 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gray-700);
+  padding-top: 6.8rem;
+  padding-bottom: 8.4rem;
+}

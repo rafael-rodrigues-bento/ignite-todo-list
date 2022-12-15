@@ -1,0 +1,72 @@
+.wrapper {
+  max-width: 73.6rem;
+  margin: auto;
+  padding-inline: 2rem;
+}
+
+.wrapper form {
+  display: flex;
+  margin-top: -3rem;
+  gap: .8rem;
+ 
+}
+
+.wrapper form input {
+  background: var(--gray-500);
+  border: 0;
+  flex: 1;
+  padding: 1.6rem;
+  border-radius: 8px;
+  color: var(--gray-100);
+}
+
+.wrapper form button {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  background: var(--blue-600);
+  color: var(--gray-100);
+  padding: 1.6rem;
+  border-radius: 8px;
+  border: 0;
+  
+  cursor: pointer;
+
+  transition: background .3s;
+}
+
+.wrapper form button:hover {
+  background: var(--blue-500);
+}
+
+.countTasks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6.5rem;
+  
+  padding-bottom: 2.4rem;
+  border-bottom: 1px solid var(--gray-400);
+}
+
+.countTasks span {
+  background: var(--gray-400);
+  color: var(--gray-100);
+  padding: 2px 8px;
+  border-radius: 50%;
+}
+
+
+.countCreatedTasks, .countDoneTasks {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}
+
+.countCreatedTasks strong {
+  color: var(--blue-500);
+}
+
+.countDoneTasks {
+  color: var(--purple-500)
+}
