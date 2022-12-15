@@ -1,0 +1,61 @@
+.wrapper {
+  background: var(--gray-500);
+  border-radius: 8px;
+  padding: 1.6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.2rem;
+
+  margin-bottom: 1.2rem;
+}
+
+.wrapper input[type="checkbox"] {
+  cursor: pointer;
+
+  appearance: none;
+  
+  border: 2px solid var(--blue-500);
+  border-radius: 50%;
+  width: 2.4rem;
+  height: 2.4rem;
+
+  position: relative;
+}
+
+.wrapper input[type="checkbox"]:checked {
+  background: var(--purple-600);
+  border: 0;
+}
+
+.wrapper input[type="checkbox"]:checked::before {
+  content: "✓";
+  font-size: 2rem;
+  color: #ffffff;
+
+  position: absolute;
+  left: 0.3rem;
+}
+
+.taskComplete {
+  color: var(--gray-100); 
+}
+
+.taskNotComplete {
+  text-decoration-line: line-through;
+  color: var(--gray-300);
+}
+
+.wrapper button {
+  background: transparent;
+  border: 0;
+  color: var(--gray-300);
+  cursor: pointer;
+
+  transition: color .2s;
+}
+
+.wrapper button:hover {
+  color: var(--red-500);
+}

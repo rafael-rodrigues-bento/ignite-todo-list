@@ -46,14 +46,13 @@
   margin-top: 6.5rem;
   
   padding-bottom: 2.4rem;
-  border-bottom: 1px solid var(--gray-400);
 }
 
 .countTasks span {
   background: var(--gray-400);
   color: var(--gray-100);
   padding: 2px 8px;
-  border-radius: 50%;
+  border-radius: 999px;
 }
 
 
