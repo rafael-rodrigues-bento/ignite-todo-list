@@ -94,7 +94,7 @@ export function App() {
           
           <NotTaskCreated /> :
           
-          tasks.map(task => {
+          tasks.reverse().map(task => {
             return (
               <Task
                 key={task.id} 
