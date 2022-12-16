@@ -1,14 +1,14 @@
 .wrapper {
   max-width: 73.6rem;
   margin: auto;
-  padding-inline: 2rem;
+  padding-inline: 3rem;
+
 }
 
 .wrapper form {
   display: flex;
   margin-top: -3rem;
   gap: .8rem;
- 
 }
 
 .wrapper form input {
@@ -68,4 +68,10 @@
 
 .countDoneTasks {
   color: var(--purple-500)
+}
+
+@media (max-width: 500px) {
+.wrapper form input {
+  width: 100%;
+}
 }
