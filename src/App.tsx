@@ -35,7 +35,7 @@ export function App() {
       isComplete: false
     }
 
-    setTasks(prevState => [...prevState, newTask]);
+    setTasks(prevState => [newTask, ...prevState]);
 
     setNewTaskContent("")
   }
@@ -93,8 +93,8 @@ export function App() {
           tasks.length <= 0 ?
           
           <NotTaskCreated /> :
-          
-          tasks.reverse().map(task => {
+
+          tasks.map(task => {
             return (
               <Task
                 key={task.id} 
